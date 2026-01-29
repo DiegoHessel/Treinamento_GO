@@ -12,7 +12,7 @@ func main(){
     fmt.Println("Jogo da adivinhação")
     fmt.Println("Ente adivinhar um número entre 1 a 10")
 
-    var guess int 
+    var guess int
     
     for {
         fmt.Println("Digite seu palpite ou 0 para sair")
