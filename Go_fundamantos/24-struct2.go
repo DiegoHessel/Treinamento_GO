@@ -12,14 +12,14 @@ type Pessoa struct{
 }
 func main(){
 // criar a instância da struct carro
-pessoa1 := Pessoa{
+pessoa := Pessoa{
 	Nome : "Diego Hessel",
 	Idade : 23,
 	Endereco :"Rua Tutoia",
 }
 	fmt.Println("Informacões da Pessoa")
-	fmt.Printf("Nome: %s \n", pessoa1.Nome)
-	fmt.Printf("Idade: %d \n", pessoa1.Idade)
-	fmt.Printf("Endereço: %s \n", pessoa1.Endereco)
+	fmt.Printf("Nome: %s \n", pessoa.Nome)
+	fmt.Printf("Idade: %d \n", pessoa.Idade)
+	fmt.Printf("Endereço: %s \n", pessoa.Endereco)
 }
 
