@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	var nome string
 	var idade int
 	var altura float64
@@ -19,7 +19,6 @@ func main(){
 	fmt.Println(nome)
 	fmt.Println(altura)
 	fmt.Println(idade)
-
 
 	maiorDeIdade = idade >= 18
 	fmt.Println(nome)
