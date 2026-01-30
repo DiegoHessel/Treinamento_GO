@@ -1,8 +1,11 @@
 package main
-import ("fmt"
-"strings")
 
-func main(){
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
 	var nome string
 	var idade int
 	var altura float64
@@ -18,12 +21,12 @@ func main(){
 	maiorDeIdade = idade >= 18
 
 	var sb strings.Builder
-	
+
 	fmt.Println("\n Dados Pessoais \n")
-	sb.WriteString(fmt.Sprintf("Nome: %s \n",nome))
-	sb.WriteString(fmt.Sprintf("Atura: %.2f \n",altura))
+	sb.WriteString(fmt.Sprintf("Nome: %s \n", nome))
+	sb.WriteString(fmt.Sprintf("Atura: %.2f \n", altura))
 	sb.WriteString(fmt.Sprintf("Idade: %d \n", idade))
-	sb.WriteString(fmt.Sprintf("maior de idade? %v \n" ,maiorDeIdade))
+	sb.WriteString(fmt.Sprintf("maior de idade? %v \n", maiorDeIdade))
 
 	fmt.Println(sb.String())
 }

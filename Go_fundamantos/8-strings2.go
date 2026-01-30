@@ -1,10 +1,11 @@
 package main
 
-import ("fmt"
-		"strings"
+import (
+	"fmt"
+	"strings"
 )
 
-func main(){
+func main() {
 	movieName := "Top Gun"
 	movieName2 := "top Gun"
 
@@ -19,17 +20,17 @@ na indústria
 
 	// conversão de de palavras para minúsculo
 	fmt.Println(strings.ToLower(movieDescripition))
-	
+
 	// Primeira letra em maiúsculo
 	fmt.Println(strings.Title(movieDescripition))
 
 	// Encontrar a posição de um caractere
-	fmt.Println(strings.Index(movieDescripition,"p"))
+	fmt.Println(strings.Index(movieDescripition, "p"))
 
 	// contando o numero de ocorrência de um caractere
-	fmt.Println(strings.Count(movieDescripition,"a"))
-	fmt.Println(strings.Count(movieDescripition,"e"))
-	
+	fmt.Println(strings.Count(movieDescripition, "a"))
+	fmt.Println(strings.Count(movieDescripition, "e"))
+
 	// substitua um elemento por outro
-	fmt.Println(strings.ReplaceAll(movieDescripition,"filme","serie"))
+	fmt.Println(strings.ReplaceAll(movieDescripition, "filme", "serie"))
 }

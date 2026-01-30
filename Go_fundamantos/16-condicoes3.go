@@ -2,22 +2,22 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
 	var numero int
 	fmt.Println("Informe um número")
 	fmt.Scan(&numero)
 
-	if numero > 0{
-	fmt.Println("O número é positivo")
-	}else if numero <0{
+	if numero > 0 {
+		fmt.Println("O número é positivo")
+	} else if numero < 0 {
 		fmt.Println("O número é negativo")
-	}else{
+	} else {
 		fmt.Println("O número é 0")
 	}
-	if numero % 2 == 0 {
+	if numero%2 == 0 {
 		fmt.Println("O número é par")
-	} else{
+	} else {
 		fmt.Println("O número é ímpar")
 	}
 

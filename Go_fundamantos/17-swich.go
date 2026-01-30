@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var nota float64
 
 	fmt.Println("Informe a nota do aluno de 0 a 10")
 	fmt.Scan(&nota)
 
-	switch{
+	switch {
 	case nota >= 9:
 		fmt.Println("Classificação : A - Exemlente")
 	case nota >= 7:

@@ -1,10 +1,11 @@
 package main
 
-import ("fmt"
-		"strings"
+import (
+	"fmt"
+	"strings"
 )
 
-func main(){
+func main() {
 	movieName := "Top Gun"
 	movieName2 := "top Gun"
 
@@ -15,14 +16,13 @@ aventura muito conseituado
 na indústria
 `
 	line := "="
-	//quantas vezes vc quer repetir algum caracter 
-	fmt.Println(strings.Repeat(line,40))
-
+	//quantas vezes vc quer repetir algum caracter
+	fmt.Println(strings.Repeat(line, 40))
 
 	//fmt.Printf("========================")
 	fmt.Println(movieDescripition)
 
 	//verifica se uma palavra existe dentro de uma string
-	fmt.Println(strings.Contains(movieDescripition,"top"))
-	fmt.Println(strings.Contains(movieDescripition,"filme"))
+	fmt.Println(strings.Contains(movieDescripition, "top"))
+	fmt.Println(strings.Contains(movieDescripition, "filme"))
 }

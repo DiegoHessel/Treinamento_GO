@@ -2,15 +2,13 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var idade int
 	fmt.Println("Informe sua idade:")
 	fmt.Scan(&idade)
-	if idade >= 18{
+	if idade >= 18 {
 		fmt.Println("Você é maior de idade")
-	} else{
+	} else {
 		fmt.Println("Você é menor de idade")
 	}
-
-
 }
